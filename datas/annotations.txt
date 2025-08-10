@@ -1,0 +1,11 @@
+AnhydriteRock 0
+Bauxite 1
+BioclasticMicrite 2
+Chamosite-HematiteOolite 3
+Chert 4
+PhosphaticSandstone 5
+ResidualCalcareniticDolomite 6
+SparryCalcarenite 7
+SparryCrinoidalLimestone 8
+SparryOoliticLimestone 9
+SparryPeloidalLimestone 10
