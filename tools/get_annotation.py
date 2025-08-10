@@ -7,7 +7,7 @@ from utils.train_utils import get_info
 
 def main():
     classes_path = '../datas/annotations.txt'
-    datasets_path = 'C:/Users/zhangtong/Desktop/rock_identification/datasets'
+    datasets_path = './rock_identification/datasets'
     datasets = ["train", "test"]
     classes, indexs = get_info(classes_path)    # 获取类别和索引
 
