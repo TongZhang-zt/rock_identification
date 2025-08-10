@@ -25,7 +25,7 @@ EfficientNet是Google Research在2019年提出的一系列卷积神经网络模�
 在计算机视觉领域，图像是由像素组成的二维矩阵。图像的每个像素都可以看作是一个数值，代表图像的强度或亮度。大多数图像的表达方式是RGB颜色模型，即红绿蓝三原色的混合。在RGB模型中，每个像素的颜色由红、绿、蓝三个分量组成，每个分量的取值范围是0~255。我们可以将其看做是三维空间中的一个点，这个点的坐标为(x,y,z)，其中x、y分别表示图像的宽度和高度，z表示颜色的强度。
 </p>
 
-![](/rock_identification/datas/image/image_rgb.png)
+![]((https://github.com/TongZhang-zt/image/blob/main/image_rgb.png))
 
 ### 传统神经网络与卷积神经网络
 <p style="text-indent: 2em;">
