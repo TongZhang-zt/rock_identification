@@ -25,14 +25,14 @@ EfficientNet是Google Research在2019年提出的一系列卷积神经网络模�
 在计算机视觉领域，图像是由像素组成的二维矩阵。图像的每个像素都可以看作是一个数值，代表图像的强度或亮度。大多数图像的表达方式是RGB颜色模型，即红绿蓝三原色的混合。在RGB模型中，每个像素的颜色由红、绿、蓝三个分量组成，每个分量的取值范围是0~255。我们可以将其看做是三维空间中的一个点，这个点的坐标为(x,y,z)，其中x、y分别表示图像的宽度和高度，z表示颜色的强度。
 </p>
 
-![]((https://github.com/TongZhang-zt/image/blob/main/image_rgb.png))
+![](https://github.com/TongZhang-zt/image/blob/main/image_rgb.png)
 
 ### 传统神经网络与卷积神经网络
 <p style="text-indent: 2em;">
 传统的神经网络模型是基于人工神经元的网络模型，它由输入层、隐藏层和输出层组成。输入层接受外部输入，经过一系列的处理，最终输出结果。隐藏层是由神经元组成的网络，它接受输入信号，对其进行加工处理，并输出新的信号。输出层则是对隐藏层的输出进行处理，输出最终的结果。
 </p>
 
-![](/rock_identification/datas/image/Neural_Network.jpg)
+![](https://github.com/TongZhang-zt/image/blob/main/Neural_Network.jpg)
 
 <p style="text-indent: 2em;">
 卷积神经网络（CNN）等深度学习模型在卷积层中引入了卷积操作，它可以提取图像的局部特征而不受位置的影响。在传统的神经网络模型中，输入信号经过一系列的神经元，最后输出结果。而在卷积神经网络模型中，输入信号经过一系列的卷积层，在卷积层中，卷积操作可以提取图像的局部特征。卷积层的输出信号经过一系列的非线性激活函数，如ReLU、Sigmoid等，最后输出结果。
@@ -74,7 +74,7 @@ EfficientNet是Google Research在2019年提出的一系列卷积神经网络模�
 
 | 4 | 4 |
 
-![](/rock_identification/datas/image/convolution_demo.gif)
+![](https://github.com/TongZhang-zt/image/blob/main/convolution_demo.gif)
 
 ### 什么是池化？
 <p style="text-indent: 2em;">
@@ -117,7 +117,7 @@ EfficientNet是Google Research在2019年提出的一系列卷积神经网络模�
 
 | 12 | 16 |
 
-![](/rock_identification/datas/image/max_pooling_demo.gif)
+![](https://github.com/TongZhang-zt/image/blob/main/max_pooling_demo.gif)
 
 ##### 池化的主要目的
 
@@ -163,16 +163,16 @@ EfficientNet是Google Research在2019年提出的一系列卷积神经网络模�
 全连接层：全连接层是卷积神经网络的输出层，它将卷积层的输出变换为一维向量，再输入到全连接层中，进行分类或回归。
 </p>
 
-![](/rock_identification/datas/image/neural.png)
+![](https://github.com/TongZhang-zt/image/blob/main/neural.png)
 
 ## EfficientNet的结构
 <p style="text-indent: 2em;">
 EfficientNet是Google Research在2019年提出的一种卷积神经网络模型，它在结构上与ResNet、DenseNet、Inception等模型有所不同。EfficientNet的核心思想是通过精心设计网络架构，在保证准确率的前提下，减少模型的计算量和参数量。
 </p>
 
-![模型大小与imagenet精度的关系](/rock_identification/datas/image/x1.png)
+![模型大小与imagenet精度的关系](https://github.com/TongZhang-zt/image/blob/main/x1.png)
 
-![模型缩放](/rock_identification/datas/image/x2.png)
+![模型缩放](https://github.com/TongZhang-zt/image/blob/main/x2.png)
 (a)是基线网络示例；(b)-(d)是常规缩放，仅增加网络宽度、深度或分辨率的一个维度。(e)是我们提出的复合缩放方法，它以固定的比率均匀地缩放所有三个维度。
 
 <p style="text-indent: 2em;">
@@ -180,34 +180,34 @@ EfficientNet的网络架构由多个模块组成，每个模块由多个卷积�
 </p>
 
 头和尾结构：
-![](/rock_identification/datas/image/stem.png)
+![](https://github.com/TongZhang-zt/image/blob/main/stem.png)
 
 躯干结构：
-![](/rock_identification/datas/image/module.png)
+![](https://github.com/TongZhang-zt/image/blob/main/module.png)
 
 EfficientNet-B0：
-![](/rock_identification/datas/image/efficientnet-b0.png)
+![](https://github.com/TongZhang-zt/image/blob/main/efficientnet_b0.png)
 
 EfficientNet-B1：
-![](/rock_identification/datas/image/efficientnet-b1.png)
+![](https://github.com/TongZhang-zt/image/blob/main/efficientnet_b1.png)
 
 EfficientNet-B2：
 B2与B1相同，唯一的区别是特征图(通道)的数量不同，增加了参数的数量。
 
 EfficientNet-B3：
-![](/rock_identification/datas/image/efficientnet-b3.png)
+![](https://github.com/TongZhang-zt/image/blob/main/efficientnet_b3.png)
 
 EfficientNet-B4：
-![](/rock_identification/datas/image/efficientnet-b4.png)
+![](https://github.com/TongZhang-zt/image/blob/main/efficientnet_b4.png)
 
 EfficientNet-B5：
-![](/rock_identification/datas/image/efficientnet-b5.png)
+![](https://github.com/TongZhang-zt/image/blob/main/efficientnet_b5.png)
 
 EfficientNet-B6：
-![](/rock_identification/datas/image/efficientnet-b6.png)
+![](https://github.com/TongZhang-zt/image/blob/main/efficientnet_b6.png)
 
 EfficientNet-B7：
-![](/rock_identification/datas/image/efficientnet-b7.png)
+![](https://github.com/TongZhang-zt/image/blob/main/efficientnet_b7.png)
 
 ## EfficientNet_B4详细解读
 <p style="text-indent: 2em;">
